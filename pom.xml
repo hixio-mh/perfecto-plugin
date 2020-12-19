@@ -5,7 +5,7 @@
 		<groupId>org.jenkins-ci.plugins</groupId>
 		<artifactId>plugin</artifactId>
 		<version>4.0</version>
-		<relativePath />
+		<relativePath/>
 	</parent>
 	<properties>
 		<jenkins.version>2.164.3</jenkins.version>
@@ -83,10 +83,10 @@
 						<configuration>
 							<tasks>
 								<filterset id="filters">
-									<filter token="VERSION" value="${project.version}" />
+									<filter token="VERSION" value="${project.version}"/>
 								</filterset>
 								<copy preservelastmodified="true" file="./src/main/resources/io/plugins/perfecto/BuildUtils.template" tofile="./src/main/java/io/plugins/perfecto/BuildUtils.java" overwrite="true">
-									<filterset refid="filters" />
+									<filterset refid="filters"/>
 								</copy>
 							</tasks>
 						</configuration>
@@ -187,7 +187,7 @@
 		<dependency>
 			<groupId>com.auth0</groupId>
 			<artifactId>java-jwt</artifactId>
-			<version>3.1.0</version>
+			<version>3.11.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
