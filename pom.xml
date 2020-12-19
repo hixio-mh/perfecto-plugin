@@ -5,7 +5,7 @@
 		<groupId>org.jenkins-ci.plugins</groupId>
 		<artifactId>plugin</artifactId>
 		<version>4.0</version>
-		<relativePath />
+		<relativePath/>
 	</parent>
 	<properties>
 		<jenkins.version>2.164.3</jenkins.version>
@@ -83,10 +83,10 @@
 						<configuration>
 							<tasks>
 								<filterset id="filters">
-									<filter token="VERSION" value="${project.version}" />
+									<filter token="VERSION" value="${project.version}"/>
 								</filterset>
 								<copy preservelastmodified="true" file="./src/main/resources/io/plugins/perfecto/BuildUtils.template" tofile="./src/main/java/io/plugins/perfecto/BuildUtils.java" overwrite="true">
-									<filterset refid="filters" />
+									<filterset refid="filters"/>
 								</copy>
 							</tasks>
 						</configuration>
@@ -251,7 +251,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.9</version>
+			<version>3.11</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jenkins-ci.plugins</groupId>
