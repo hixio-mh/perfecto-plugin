@@ -14,7 +14,7 @@
 		<plugins.matrix-project.version>1.12</plugins.matrix-project.version>
 		<plugins.maven-project.version>2.17</plugins.maven-project.version>
 		<plugins.run-condition.version>1.0</plugins.run-condition.version>
-		<plugins.credentials.version>2.1.16</plugins.credentials.version>
+		<plugins.credentials.version>2.3.19</plugins.credentials.version>
 		<junit-quickcheck.version>0.9.3</junit-quickcheck.version>
 	</properties>
 	<groupId>io.jenkins.plugins</groupId>
